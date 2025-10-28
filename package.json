@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "build": "next build",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
     "dev": "next dev",
     "format": "prettier --config .prettierrc --write src",
     "lint": "eslint",
@@ -28,6 +30,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cypress": "^15.5.0",
     "eslint": "^9",
     "eslint-config-next": "15.5.6",
     "eslint-config-prettier": "^10.1.8",

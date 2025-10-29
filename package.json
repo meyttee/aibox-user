@@ -1,17 +1,19 @@
 {
   "name": "aibox-user",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
+  "packageManager": "pnpm",
   "scripts": {
     "build": "next build",
+    "build-storybook": "storybook build",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
     "dev": "next dev",
     "format": "prettier --config .prettierrc --write src",
     "lint": "eslint",
     "start": "next start",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "storybook": "storybook dev -p 6006"
   },
   "dependencies": {
     "@heroui/react": "^2.8.5",

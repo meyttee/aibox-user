@@ -2,6 +2,62 @@
 @plugin "../styles/heroui.ts";
 @source "../../node_modules/@heroui/theme/dist/**/*.{ts,tsx}";
 
+@font-face {
+  font-family: "Yekan";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../../public/fonts/YekanBakhFaNum-Thin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Yekan";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../../public/fonts/YekanBakhFaNum-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Yekan";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../../public/fonts/YekanBakhFaNum-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Yekan";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../../public/fonts/YekanBakhFaNum-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Yekan";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../../public/fonts/YekanBakhFaNum-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Yekan";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../../public/fonts/YekanBakhFaNum-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Yekan";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../../public/fonts/YekanBakhFaNum-Black.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Yekan";
+  font-style: normal;
+  font-weight: 950;
+  src: url("../../public/fonts/YekanBakhFaNum-ExtraBlack.woff2") format("woff2");
+}
+
 @custom-variant dark (&:where(dark, dark *));
 
 :root {
@@ -198,8 +254,8 @@
   --breakpoint-2xl: 1536px;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
+* {
+  font-family: "Yekan";
 }
 
 @keyframes fadein {
@@ -248,3 +304,7 @@ body {
 .t5 {
   animation-delay: 1.3s;
 }
+/* 
+.otp-base[data-invalid="true"] div[role="presentation"] {
+  outline: 1px solid var(--color-error-500);
+} */

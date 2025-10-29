@@ -14,13 +14,13 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@heroui/button": "^2.2.27",
     "@heroui/react": "^2.8.5",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.24",
     "next": "15.5.6",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "react-hook-form": "^7.65.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

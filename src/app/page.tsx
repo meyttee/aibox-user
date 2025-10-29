@@ -1,6 +1,5 @@
 "use client";
 
-import ControlledOtpInput from "@/components/ui/form/otpInput/controlledOtpInput";
 import { useChangeTheme } from "@/hooks";
 import { Button } from "@heroui/react";
 import Image from "next/image";
